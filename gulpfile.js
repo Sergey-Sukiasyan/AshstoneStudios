@@ -59,7 +59,7 @@ const dev = () => {
         server: 'build',
     })
 
-    watch('src/**.html', series(html)).on('change', sync.reload)
+    watch(['src/**.html', 'src/partials/**.html'], series(html)).on('change', sync.reload)
     watch('src/scss/**.scss', series(scss)).on('change', sync.reload)
     watch('src/typescript/**.ts', series(typescript)).on('change', sync.reload)
 }
