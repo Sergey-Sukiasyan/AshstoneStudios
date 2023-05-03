@@ -5,7 +5,7 @@
 Clone this Project
 
 ```bash
-https://github.com/Sergey-Sukiasyan/Netwrix.git
+https://github.com/Sergey-Sukiasyan/AshstoneStudios.git
 ```
 
 ## Run
