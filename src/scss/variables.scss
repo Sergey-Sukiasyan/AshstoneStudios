@@ -1,0 +1,14 @@
+@mixin arrow-style {
+  top: 50%;
+  right: 0;
+  width: 5px;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transition: 0.2s ease;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: translate(12px, calc(-50% - 1px)) rotate(45deg);
+}
+
+$border_line: 1px solid #E9E9E9;
